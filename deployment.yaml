@@ -3,3 +3,4 @@ parameters:
  ProjectName: aws-training
  EC2InstanceType: t3.micro
  CPUScaleOutThreshold: "50"
+tags: {}
