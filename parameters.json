@@ -1,38 +1,9 @@
-[
-  {
-    "ParameterKey": "ProjectName",
-    "ParameterValue": "aws-training"
-  },
-  {
-    "ParameterKey": "EC2KeyPairName",
-    "ParameterValue": "impress-keypair"
-  },
-  {
-    "ParameterKey": "DBPassword",
-    "ParameterValue": "YourPassword123!"
-  },
-  {
-    "ParameterKey": "EC2InstanceType",
-    "ParameterValue": "t3.micro"
-  },
-  {
-    "ParameterKey": "DBInstanceClass",
-    "ParameterValue": "db.t3.micro"
-  },
-  {
-    "ParameterKey": "ASGMinSize",
-    "ParameterValue": "2"
-  },
-  {
-    "ParameterKey": "ASGMaxSize",
-    "ParameterValue": "4"
-  },
-  {
-    "ParameterKey": "ASGDesiredSize",
-    "ParameterValue": "2"
-  },
-  {
-    "ParameterKey": "CPUScaleOutThreshold",
-    "ParameterValue": "50"
-  }
-]
+ProjectName: aws-training
+EC2KeyPairName: impress-keypair
+DBPassword: YourPassword123!
+EC2InstanceType: t3.micro
+DBInstanceClass: db.t3.micro
+ASGMinSize: "2"
+ASGMaxSize: "4"
+ASGDesiredSize: "2"
+CPUScaleOutThreshold: "50"
