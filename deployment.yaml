@@ -1,9 +1,6 @@
 template-file-path: 課題2-infrastructure.yaml
 ProjectName: aws-training
-EC2KeyPairName: impress-keypair
-DBPassword: YourPassword123!
 EC2InstanceType: t3.micro
-DBInstanceClass: db.t3.micro
 ASGMinSize: "2"
 ASGMaxSize: "4"
 ASGDesiredSize: "2"
