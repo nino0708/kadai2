@@ -1,3 +1,4 @@
+template-file-path: 課題2-infrastructure.yaml
 ProjectName: aws-training
 EC2KeyPairName: impress-keypair
 DBPassword: YourPassword123!
